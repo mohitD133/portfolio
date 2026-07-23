@@ -74,7 +74,7 @@ export function Hero() {
                 </Button>
               </a>
               <a href="#contact">
-                <Button size="lg" variant="ghost" className="font-semibold gap-2">
+                <Button size="lg" variant="ghost" className="font-semibold gap-2 border-primary/30 hover:bg-primary/10 hover:border-primary/50">
                   <Mail className="size-4" /> Contact Me
                 </Button>
               </a>
