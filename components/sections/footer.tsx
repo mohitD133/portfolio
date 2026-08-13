@@ -4,12 +4,12 @@ import { about } from '@/lib/data/about'
 import { Mail } from 'lucide-react'
 import { GithubIcon, LinkedinIcon, WhatsappIcon } from '@/components/brand-icons'
 
-const socials = [
-  { name: 'GitHub', href: 'https://github.com', icon: GithubIcon },
-  { name: 'LinkedIn', href: 'https://linkedin.com', icon: LinkedinIcon },
-  { name: 'WhatsApp', href: about.whatsapp, icon: WhatsappIcon },
-  { name: 'Email', href: `mailto:${about.email}`, icon: Mail },
-]
+const socialIcons = {
+  github: GithubIcon,
+  linkedin: LinkedinIcon,
+  whatsapp: WhatsappIcon,
+  mail: Mail,
+}
 
 const quickLinks = [
   { name: 'About', href: '#about' },
@@ -52,18 +52,22 @@ export function Footer() {
           <div className="space-y-3">
             <h4 className="text-sm font-semibold text-foreground uppercase tracking-widest">Connect</h4>
             <div className="flex gap-3">
-              {socials.map((s) => (
+              {about.social.map((social) => {
+                const Icon = socialIcons[social.icon as keyof typeof socialIcons] ?? Mail
+
+                return (
                 <a
-                  key={s.name}
-                  href={s.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={s.name}
+                  key={social.name}
+                  href={social.url}
+                  target={social.url.startsWith('mailto:') ? undefined : '_blank'}
+                  rel={social.url.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
+                  aria-label={social.name}
                   className="w-10 h-10 rounded-full bg-background border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/40 transition-all"
                 >
-                  <s.icon className="size-4" />
+                  <Icon className="size-4" />
                 </a>
-              ))}
+                )
+              })}
             </div>
           </div>
         </div>

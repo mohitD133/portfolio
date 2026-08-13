@@ -16,7 +16,7 @@ export function Experience() {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">Career Journey</h2>
           <div className="w-16 h-1 bg-gradient-to-r from-primary to-accent rounded-full" />
           <p className="text-lg text-muted-foreground">
-            A focused path from building web apps to architecting cloud and AI solutions.
+            A career spanning data analytics, business intelligence, and full-stack engineering.
           </p>
         </Reveal>
 

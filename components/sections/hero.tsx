@@ -7,10 +7,10 @@ import { HeroAvatar } from '@/components/hero-avatar'
 import { ArrowRight, Download, Mail } from 'lucide-react'
 
 const stats = [
-  { value: '5+', label: 'Years Experience' },
-  { value: '20+', label: 'Projects Delivered' },
-  { value: '40+', label: 'Products Managed' },
-  { value: '100%', label: 'Client Focus' },
+  { value: '2+', label: 'Years Experience' },
+  { value: '3', label: 'Featured Projects' },
+  { value: '94.1%', label: 'ML Model Accuracy' },
+  { value: '95%', label: 'Stakeholder Satisfaction' },
 ]
 
 export function Hero() {
@@ -40,7 +40,7 @@ export function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
               </span>
-              <span className="text-sm font-medium text-foreground/80">Available for new projects</span>
+              <span className="text-sm font-medium text-foreground/80">Open to data opportunities</span>
             </motion.div>
 
             <motion.div variants={{ hidden: { opacity: 0, y: 16 }, show: { opacity: 1, y: 0 } }} className="space-y-3">
@@ -56,7 +56,7 @@ export function Hero() {
               variants={{ hidden: { opacity: 0, y: 16 }, show: { opacity: 1, y: 0 } }}
               className="text-lg text-muted-foreground max-w-xl leading-relaxed"
             >
-              Building scalable applications, cloud solutions, and e-commerce platforms that help businesses grow.
+              {about.bio}
             </motion.p>
 
             <motion.div

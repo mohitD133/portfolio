@@ -5,24 +5,8 @@ export interface SkillCategory {
 }
 
 export const skills: SkillCategory[] = [
-  {
-    category: 'Frontend',
-    icon: 'layout',
-    skills: ['React', 'Next.js', 'Angular', 'TypeScript', 'Tailwind CSS'],
-  },
-  {
-    category: 'Backend',
-    icon: 'server',
-    skills: ['Node.js', 'Express.js', 'NestJS', 'MongoDB', 'MySQL', 'Redis'],
-  },
-  {
-    category: 'Cloud & DevOps',
-    icon: 'cloud',
-    skills: ['AWS', 'Docker', 'GitHub Actions', 'CloudFront', 'S3', 'EC2'],
-  },
-  {
-    category: 'AI & Automation',
-    icon: 'sparkles',
-    skills: ['OpenAI', 'Vertex AI', 'Prompt Engineering', 'Automation Workflows'],
-  },
+  { category: 'Data & BI', icon: 'chart', skills: ['Power BI', 'Tableau', 'DAX', 'Power Query', 'KPI Automation', 'VBA', 'Matplotlib', 'Seaborn', 'Plotly'] },
+  { category: 'Data Science', icon: 'sparkles', skills: ['Pandas', 'NumPy', 'Scikit-learn', 'XGBoost', 'TensorFlow', 'PyTorch', 'PySpark', 'Feature Engineering'] },
+  { category: 'Programming & Data', icon: 'code', skills: ['Python', 'SQL', 'Java', 'JavaScript', 'C#', 'SQL Server'] },
+  { category: 'Full-Stack & Tools', icon: 'layout', skills: ['React', 'Angular', 'ASP.NET Core', 'Entity Framework Core', 'AWS', 'n8n', 'GitLab', 'JIRA', 'Postman'] },
 ];

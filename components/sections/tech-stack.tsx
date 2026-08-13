@@ -13,6 +13,7 @@ import {
   HardDrive,
   Hexagon,
   Server,
+  Workflow,
   type LucideIcon,
 } from 'lucide-react'
 
@@ -27,6 +28,11 @@ const techIcons: Record<string, LucideIcon> = {
   docker: Braces,
   github: GitBranch,
   openai: Bot,
+  python: Braces,
+  chart: Boxes,
+  git: GitBranch,
+  bot: Bot,
+  workflow: Workflow,
 }
 
 export function TechStack() {
@@ -48,7 +54,7 @@ export function TechStack() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 mt-12">
           {techStack.map((tech, i) => {
-            const Icon = techIcons[tech.icon]
+            const Icon = techIcons[tech.icon] ?? Boxes
 
             return (
             <Reveal key={tech.name} delay={i * 0.05}>

@@ -4,6 +4,7 @@ import { ThemeToggle } from './theme-toggle'
 import { Button } from '@/components/ui/button'
 import { useEffect, useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import { about } from '@/lib/data/about'
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -34,7 +35,7 @@ export function Header() {
     >
       <nav className="container mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
         <a href="#" className="text-lg font-bold text-gradient">
-          Brijesh.dev
+          {about.name.split(' ')[0]}.dev
         </a>
 
         <div className="hidden md:flex items-center gap-7">

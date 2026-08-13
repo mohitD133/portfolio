@@ -6,14 +6,14 @@ export interface Tech {
 }
 
 export const techStack: Tech[] = [
+  { name: 'Python', icon: 'python', color: '#3776AB', category: 'Programming' },
+  { name: 'Power BI', icon: 'chart', color: '#F2C811', category: 'Business intelligence' },
   { name: 'React', icon: 'react', color: '#61DAFB', category: 'Frontend' },
   { name: 'Angular', icon: 'angular', color: '#DD0031', category: 'Frontend' },
-  { name: 'Node.js', icon: 'node', color: '#339933', category: 'Backend' },
-  { name: 'MongoDB', icon: 'mongodb', color: '#47A248', category: 'Database' },
-  { name: 'MySQL', icon: 'mysql', color: '#4479A1', category: 'Database' },
-  { name: 'Redis', icon: 'redis', color: '#DC382D', category: 'Caching' },
   { name: 'AWS', icon: 'aws', color: '#FF9900', category: 'Cloud' },
-  { name: 'Docker', icon: 'docker', color: '#2496ED', category: 'DevOps' },
-  { name: 'GitHub', icon: 'github', color: '#F9FAFB', category: 'Version control' },
-  { name: 'OpenAI', icon: 'openai', color: '#10A37F', category: 'AI integration' },
+  { name: 'XGBoost', icon: 'bot', color: '#FF6600', category: 'Machine learning' },
+  { name: 'ARIMA', icon: 'chart', color: '#FF6600', category: 'Machine learning' },
+  { name: 'n8n', icon: 'workflow', color: '#EA4B71', category: 'Automation' },
+  { name: 'KPI Automation', icon: 'chart', color: '#F2C811', category: 'Business intelligence' },
+  { name: 'TensorFlow', icon: 'bot', color: '#FF6F00', category: 'Machine learning' },
 ];

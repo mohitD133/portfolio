@@ -2,13 +2,11 @@
 
 import { services } from '@/lib/data/services'
 import { Reveal } from '@/components/motion'
-import { Code as Code2, ShoppingCart, Package, Cloud, Server, Sparkles, Workflow } from 'lucide-react'
+import { Code as Code2, ChartNoAxesCombined, Server, Sparkles, Workflow } from 'lucide-react'
 
 const iconMap: Record<string, typeof Code2> = {
   code: Code2,
-  'shopping-cart': ShoppingCart,
-  package: Package,
-  cloud: Cloud,
+  chart: ChartNoAxesCombined,
   server: Server,
   sparkles: Sparkles,
   workflow: Workflow,

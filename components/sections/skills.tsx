@@ -2,12 +2,13 @@
 
 import { skills } from '@/lib/data/skills'
 import { Reveal } from '@/components/motion'
-import { LayoutGrid as Layout, Server, Cloud, Sparkles } from 'lucide-react'
+import { LayoutGrid as Layout, Server, ChartNoAxesCombined, Sparkles, Code2 } from 'lucide-react'
 
 const iconMap: Record<string, typeof Layout> = {
   layout: Layout,
   server: Server,
-  cloud: Cloud,
+  chart: ChartNoAxesCombined,
+  code: Code2,
   sparkles: Sparkles,
 }
 

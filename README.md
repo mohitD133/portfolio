@@ -1,4 +1,4 @@
-# Brijesh Lakhani — Developer Portfolio
+# Mohit Dangariya — Data Portfolio
 
 A responsive personal portfolio built with React, TypeScript, Vite, Tailwind CSS, and EmailJS.
 

@@ -6,46 +6,9 @@ export interface Service {
 }
 
 export const services: Service[] = [
-  {
-    id: '1',
-    title: 'Full Stack Development',
-    description: 'End-to-end web applications built with MERN, Angular, and modern TypeScript stacks.',
-    icon: 'code',
-  },
-  {
-    id: '2',
-    title: 'E-commerce Solutions',
-    description: 'High-conversion online stores with payments, inventory, and checkout optimization.',
-    icon: 'shopping-cart',
-  },
-  {
-    id: '3',
-    title: 'Inventory Management Systems',
-    description: 'Real-time inventory tracking, automated alerts, and warehouse reporting tools.',
-    icon: 'package',
-  },
-  {
-    id: '4',
-    title: 'AWS Cloud Deployment',
-    description: 'Scalable AWS infrastructure with Docker, CI/CD, and zero-downtime deployments.',
-    icon: 'cloud',
-  },
-  {
-    id: '5',
-    title: 'API Development',
-    description: 'Secure, documented REST and GraphQL APIs with authentication and rate limiting.',
-    icon: 'server',
-  },
-  {
-    id: '6',
-    title: 'AI Integration',
-    description: 'OpenAI, Vertex AI, and prompt engineering integrated into your product workflows.',
-    icon: 'sparkles',
-  },
-  {
-    id: '7',
-    title: 'Business Automation',
-    description: 'Automate repetitive workflows with pipelines, scripts, and AI-powered tooling.',
-    icon: 'workflow',
-  },
+  { id: '1', title: 'Data Analysis & BI', description: 'Transform raw data into clear dashboards, KPIs, and reports with Power BI, SQL, DAX, and Power Query.', icon: 'chart' },
+  { id: '2', title: 'Data Engineering', description: 'Build reliable data workflows and ETL processes using Python, SQL, SharePoint, and business intelligence tools.', icon: 'workflow' },
+  { id: '3', title: 'Machine Learning', description: 'Develop practical machine-learning models with Python, Scikit-learn, TensorFlow, and PyTorch.', icon: 'sparkles' },
+  { id: '4', title: 'Full-Stack Development', description: 'Create responsive web applications with C#, ASP.NET Core, Angular, React, and modern frontend tooling.', icon: 'code' },
+  { id: '5', title: 'Database Optimization', description: 'Design and optimize SQL queries and database integrations for efficient data retrieval and reporting.', icon: 'server' },
 ];

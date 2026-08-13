@@ -10,6 +10,7 @@ import { Services } from '@/components/sections/services'
 import { Testimonials } from '@/components/sections/testimonials'
 import { TechStack } from '@/components/sections/tech-stack'
 import { Footer } from '@/components/sections/footer'
+import { siteConfig } from '@/lib/data/site'
 
 export default function Page() {
   return (
@@ -20,7 +21,7 @@ export default function Page() {
       <Projects />
       <Services />
       <Experience />
-      <Testimonials />
+      {siteConfig.showTestimonials && <Testimonials />}
       <TechStack />
       <Contact />
       <Footer />
