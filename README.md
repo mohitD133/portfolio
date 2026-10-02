@@ -1,4 +1,4 @@
-# Mohit Dangariya — Data Portfolio
+# [Mohit Dangariya Portfolio](https://mohit-dangariya.vercel.app)
 
 A responsive personal portfolio built with React, TypeScript, Vite, Tailwind CSS, and EmailJS.
 
