@@ -42,6 +42,19 @@ export const projects: Project[] = [
   },
   {
     id: '3',
+    title: 'Moorgen Smart Lock',
+    description: 'A modern smart home security website designed to showcase Moorgen smart locks and connected access solutions.',
+    image: 'https://brijesh-lakhani.vercel.app/assets/moorgen.png',
+    technologies: ['React.js', 'Node.js', 'MongoDB', 'Framer Motion'],
+    problem: 'Create a modern digital experience that clearly presents smart lock products, features, and security solutions for residential and commercial users.',
+    solution: 'Built a responsive and interactive website for Moorgen Smart Lock with a clean product-focused interface, engaging animations, and a structured presentation of smart security solutions.',
+    result: 'Delivered a live smart home security website with a responsive user experience and source code available on GitHub.',
+    link: 'https://moorgen-fork.vercel.app/',
+    github: 'https://github.com/mohitD133/moorgen',
+    featured: true,
+  },
+  {
+    id: '4',
     title: 'Wellocare',
     description: 'A comprehensive healthcare solution designed to streamline patient care and medical management.',
     image: 'https://brijesh-lakhani.vercel.app/assets/wellocare-COSBthph.png',
@@ -54,7 +67,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: '4',
+    id: '5',
     title: 'Imperial Property Public Website',
     description: 'A sleek, SEO-optimized public platform for Imperial Property, showcasing real-estate listings with powerful filters and a modern UI.',
     image: 'https://brijesh-lakhani.vercel.app/assets/imperial-Bn93aBE8.png',
