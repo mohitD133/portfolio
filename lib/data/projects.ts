@@ -24,7 +24,7 @@ export const projects: Project[] = [
     solution: 'Built the Business Mart console with Angular, Node.js, MongoDB, Hapi.js, and AWS S3 for a full e-commerce workflow.',
     result: 'A live, publicly accessible e-commerce application with source code available on GitHub.',
     link: 'https://business-mart-console.vercel.app/',
-    github: 'https://github.com/Mrlakhani01/business-mart-console',
+    github: 'https://github.com/mohitD133/business-mart-console',
     featured: true,
   },
   {
@@ -37,7 +37,7 @@ export const projects: Project[] = [
     solution: 'Created a responsive React landing page with polished interactions using Framer Motion and supporting Node.js and Twilio integrations.',
     result: 'A live brand experience with the frontend source publicly available on GitHub.',
     link: 'https://happy-gems-frontend.vercel.app',
-    github: 'https://github.com/Mrlakhani01/happy-gems-frontend',
+    github: 'https://github.com/mohitD133/happy-gems-frontend',
     featured: true,
   },
   {
