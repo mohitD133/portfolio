@@ -44,7 +44,7 @@ export const projects: Project[] = [
     id: '3',
     title: 'Moorgen Smart Lock',
     description: 'A modern smart home security website designed to showcase Moorgen smart locks and connected access solutions.',
-    image: 'https://brijesh-lakhani.vercel.app/assets/moorgen.png',
+    image: 'https://brijesh-lakhani.vercel.app/assets/moorgen-2-D_D8SuW-.png',
     technologies: ['React.js', 'Node.js', 'MongoDB', 'Framer Motion'],
     problem: 'Create a modern digital experience that clearly presents smart lock products, features, and security solutions for residential and commercial users.',
     solution: 'Built a responsive and interactive website for Moorgen Smart Lock with a clean product-focused interface, engaging animations, and a structured presentation of smart security solutions.',
